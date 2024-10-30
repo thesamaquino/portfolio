@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <!-- viewport is for mobile view -->
+  <meta name="description" content="Sam Aquino's portfolio which centers around web design">
+  <meta name="author" content="Sam Aquino">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sam Aquino - Web Design Portfolio</title>
+  <!--fonts first before css, css stylesheets arrangement is also important-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">  
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- rel is the relation -->
+  <script defer src="js/main.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="flex-container">
+      <section class="flex-container">
+        <h1 class="sr-only">Sam Aquino</h1>
+        <a href="index.html" title="Return to Home"><img src="img/horizontal-logo.webp" alt="Sam Aquino Logo" class="logo"></a>
+        <button class="toggle-btn">
+          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 100 80">
+            <rect width="100" height="20" rx="8"></rect>
+            <rect y="30" width="100" height="20" rx="8"></rect>
+            <rect y="60" width="100" height="20" rx="8"></rect>
+          </svg>
+        </button>
+      </section>
+      <nav class="home-nav">
+        <ul class="menu flex-container">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="#contact" aria-labelledby="contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+<section class="portfolio">
+  <div class="portfolio-list">
+    <h2>Welcome to my Portfolio</h2>
+    <nav class="portfolio-list">
+      <ul class="flex-container">
+         <li><a href="web-development-page.html"><p>Web Development</p></a></li>
+        <li class="flex-container"><span><svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+          <title>Explore my Designs</title>
+          <path d="M29.996 4c0.001 0.001 0.003 0.002 0.004 0.004v23.993c-0.001 0.001-0.002 0.003-0.004 0.004h-27.993c-0.001-0.001-0.003-0.002-0.004-0.004v-23.993c0.001-0.001 0.002-0.003 0.004-0.004h27.993zM30 2h-28c-1.1 0-2 0.9-2 2v24c0 1.1 0.9 2 2 2h28c1.1 0 2-0.9 2-2v-24c0-1.1-0.9-2-2-2v0z"></path>
+          <path d="M26 9c0 1.657-1.343 3-3 3s-3-1.343-3-3 1.343-3 3-3 3 1.343 3 3z"></path>
+          <path d="M28 26h-24v-4l7-12 8 10h2l7-6z"></path>
+          </svg>
+          </span><p>Web Designs</p></li>
+        <li><a href="graphic-design-page.html">
+          <p>Graphic Design</p></a></li>
+      </ul>
+    </nav>
+  <div class="web-design-album">
+    <div class="portfolio-item"><p>The text content is generated through ChatGPT and logo is designed through the use of Canva. My involvement is only limited to UI and UX design.</p><a href="https://www.figma.com/proto/UxpRoNMSshFue1cMiDIe9r/Samie-and-Fabio's-B%26B?page-id=0%3A1&type=design&node-id=117-656&viewport=-1314%2C1932%2C0.5&t=rmkDngQgXxyUh30i-1&scaling=scale-down&starting-point-node-id=117%3A656&mode=design" target="_blank"><img src="img/web-design/dining.webp" alt="Bed and Breakfast website"></a></div>
+    <div class="portfolio-item"><p>This is a group project for the Communications subject during the fall semester of 2023. While my team members oversaw research and presentation, I oversaw designing the alternative career landing page of NAIT, which is catered to Generation Z.</p><a href="https://nait.my.canva.site/career-outcomes" target="_blank"><img src="img/web-design/nait-career-page.webp" alt="NAIT's alternative career landing page for generation Z"></a></div>  
+  </div>
+  </div>
+</section>
+
+<footer>
+  <nav>
+    <ul id="contact">
+      <li><a href="https://www.linkedin.com/in/sheilaaquino92/" target="parent"><img src="img/linkedin-icon.png"
+            alt="Links to my linkedin profile"></a></li>
+      <li><a href="https://github.com/smaq92" target="parent"><img src="img/github.png"
+              alt="Links to my github profile"></a></li>
+      <li><a href="mailto:sheila.sam.aquino@gmail.com" target="parent"><img src="img/mail-icon.png"
+            alt="Links to my email "></a></li>
+      <li><a href="tel:+17806952019" target="parent"><img src="img/phone-icon.png" alt="Links to my phone number"></a>
+      </li>
+    </ul>
+  </nav>
+  <p><small>Our website uses cookies to enhance your browsing experience. By continuing to use our site, you consent to the use of cookies.</small></p>
+</footer>
+</body>
+
+</html>
